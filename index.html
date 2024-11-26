@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Sitio Web</title>
+    <link rel="stylesheet" href="stilo.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">Acerca de mí</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#tareas">Tareas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h1>Acerca de mí</h1>
+            <img src="jh.jpeg" alt="Imagen personal">
+            <p>Jhon Eider Rincon Gonzalez.<br>
+                36 años.<br>
+                Estudiante de Talento TEch 2024.<br>
+                Independiente. <br>
+                Tecnico en mantenimiento y ensamble de computadores.<br>
+                Graduado de ITI LUZ AYDEE GUERRERO MOLINA. <br>
+                
+            </p>
+        </section>
+        <section id="hobbies">
+            <h1>Hobbies 😁</h1>
+            <ul>
+                <li>Leer 👩‍💻</li>
+                <li>Conducir la morocha 🏍</li>
+                <li>Escuchar música 📳</li>
+                <li>Jugar lolcito 🤐</li>
+                <li>Correr 👩‍🦽</li>           
+            </ul>
+        </section>
+        <section id="tareas">
+            <h1>Tareas 🤐</h1>
+            <ul>
+                <ol>Graduarme T.TECH </ol>
+                <ol>obtener certificado T.Tech</ol>
+                <ol>Aprender a usar HTML </ol>
+                <ol>Aprender a usar Java</ol>
+                <ol>Programar</ol>           
+            </ul>
+            <!-- Tabla -->
+            <table>
+                <!-- Encabezado de la tabla -->
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Lunes</th>
+                        <th>Martes</th>
+                        <th>Miércoles</th>
+                        <th>Jueves</th>
+                        <th>Viernes</th>
+                    </tr>
+                </thead>
+            
+                <!-- Cuerpo de la tabla -->
+                <tbody>
+                    <tr>
+                        <th>Mañana</th>
+                        <td>leer</td>
+                        <td>Conducir</td>
+                        <td>Jugar</td>
+                        <td>Estudiar</td>
+                        <td>Estudiar</td>
+                    </tr>
+                    <tr>
+                        <th>Tarde</th>
+                        <td>Trabajar</td>
+                        <td>Trabajar</td>
+                        <td>Trabajar</td>
+                        <td>Ejercicio</td>
+                        <td>Trabajar</td>
+                    </tr>
+                    <tr>
+                        <th>Noche</th>
+                        <td>Trabajar</td>
+                        <td>Trabajar</td>
+                        <td>Trabajar</td>
+                        <td>Trabajar</td>
+                        <td>Jugar Lol</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section id="contacto">
+            <h1>Formulario de contacto</h1>
+            <form id="form-contacto">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre"><br><br>
+                <label for="motivo">Motivo de contacto:</label>
+                <input type="text" id="motivo" name="motivo"><br><br>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo"><br><br>
+                <label for="telefono">Telefono:</label>
+                <input type="text" id="telefono" name="telefono"><br><br>
+                <button id="enviar">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mi Sitio Web</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
